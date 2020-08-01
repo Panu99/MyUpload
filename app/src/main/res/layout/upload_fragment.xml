@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/net">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="89dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="124dp"
+        android:indeterminateDrawable="@drawable/progress"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="544dp"
+        android:background="@color/colorAccent"
+        android:text="Upload File"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/myimage"
+        android:layout_width="355dp"
+        android:layout_height="335dp"
+        android:layout_marginBottom="189dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_choose"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/custom_button"
+        android:text="Choose"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="157dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/custom_button"
+        android:text="Upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

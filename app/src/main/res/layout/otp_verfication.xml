@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/net">
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="89dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="76dp"
+        android:indeterminateDrawable="@drawable/progress"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="360dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="508dp"
+        android:background="@color/colorAccent"
+        android:text="Wlcome to MyUpload"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="472dp"
+        android:text="Enter the Below Details For Verification"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="257dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="344dp"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/cardview_light_background"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="186dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="216dp"
+        android:background="@drawable/custom_button"
+        android:text="Send OTP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/OTP"
+        android:layout_width="257dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="280dp"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="145dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="400dp"
+        android:visibility="visible"
+        app:ccp_backgroundColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Sending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="132dp"
+        android:text="Sending Otp.."
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Resend"
+        android:layout_width="195dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/custom_button"
+        android:text="Resend OTP"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

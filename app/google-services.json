@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "680088330871",
+    "firebase_url": "https://myupload-c5ea4.firebaseio.com",
+    "project_id": "myupload-c5ea4",
+    "storage_bucket": "myupload-c5ea4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680088330871:android:0fe7b7c2de23382e115c72",
+        "android_client_info": {
+          "package_name": "heexa.myproject.myupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680088330871-tb4t487c5pgfei893jnbq1949ghlt0ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLGcECtfQEd3VSI8lOTogFE2N78XNbZZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680088330871-tb4t487c5pgfei893jnbq1949ghlt0ua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

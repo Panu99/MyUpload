@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Signup"
+        android:icon="@drawable/ic_signup"
+        android:title="Signup" />
+    <item
+        android:id="@+id/Login"
+        android:icon="@drawable/ic_baseline_how_to_reg_24"
+        android:title="Login" />
+    <item
+        android:id="@+id/another"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Setting" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="ForgotPassword..?" />
+
+</menu>

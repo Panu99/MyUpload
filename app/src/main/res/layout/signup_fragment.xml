@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/net">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="536dp"
+        android:background="@color/colorAccent"
+        android:text="Wlcome to MyUpload"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Fname"
+        android:layout_width="302dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="392dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="Enter Your FullName"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="302dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="340dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="302dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="288dp"
+        android:background="@drawable/text"
+        android:ems="10"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="492dp"
+        android:text="Create Your New Account"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/custom_button"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="89dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="68dp"
+        android:indeterminateDrawable="@drawable/progress"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By:Pranav Hegde"
+        android:textAlignment="viewStart"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
